@@ -302,14 +302,6 @@
         { "label": "描述", "name": "description", "type": "textarea", "value": "" }
       ],
       "note": ""
-    },
-    {
-      "name": "about",
-      "label": "关于",
-      "group": "关于",
-      "type": "markdown",
-      "value": "",
-      "note": "关于页面的内容（Markdown 格式）"
     }
   ]
 }
