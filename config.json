@@ -140,16 +140,16 @@
     },
     {
       "name": "waline",
-      "label": "是否开启waline评论系统",
-      "group": "waline评论系统",
+      "label": "是否开启Waline评论系统",
+      "group": "Waline评论系统",
       "type": "switch",
       "value": false,
-      "note": "启用waline评论系统，需先关闭Gridea自带的评论系统开关。"
+      "note": "启用Waline评论系统，需先关闭Gridea自带的评论系统开关。"
     },
     {
       "name": "vPercentWidth",
       "label": "自定义百分比宽度",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "type": "input",
       "value": "100",
       "note": "评论区域百分比宽度。单位：%"
@@ -157,15 +157,15 @@
     {
       "name": "vMaxWidth",
       "label": "自定义最大宽度",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "type": "input",
       "value": "1000",
       "note": "评论区域最大宽度。单位：px"
     },
     {
       "name": "vPadding",
-      "label": "自定义waline评论容器的padding",
-      "group": "waline评论系统",
+      "label": "自定义Waline评论容器的padding",
+      "group": "Waline评论系统",
       "type": "input",
       "value": "2.5%",
       "note": "评论区域padding。请自行填写单位(%，px等)。"
@@ -173,7 +173,7 @@
     {
       "name": "serverURL",
       "label": "Vercel部署后的地址",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "type": "input",
       "value": "",
       "note": "Vercel部署后的地址：your-domain.vercel.app"
@@ -181,7 +181,7 @@
     {
       "name": "avatar",
       "label": "评论者头像",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "value": "",
       "type": "select",
       "options": [
@@ -223,7 +223,7 @@
     {
       "name": "pageSize",
       "label": "每页展示的评论条数",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "type": "select",
       "value": "5",
       "options": [
@@ -244,7 +244,7 @@
     {
       "name": "recordIp",
       "label": "记录评论者IP",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "type": "switch",
       "value": false,
       "note": "是否记录评论者IP"
@@ -252,7 +252,7 @@
     {
       "name": "visitor",
       "label": "记录文章访问量",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "type": "switch",
       "value": false,
       "note": "是否记录文章访问量"
@@ -260,18 +260,10 @@
     {
       "name": "placeholder",
       "label": "占位提示符",
-      "group": "waline评论系统",
+      "group": "Waline评论系统",
       "type": "input",
       "value": "Just Go Go",
       "note": "评论区占位提示符"
-    },
-    {
-      "name": "customCss",
-      "label": "自定义CSS",
-      "group": "自定义样式",
-      "value": "",
-      "type": "textarea",
-      "note": ""
     },
     {
       "name": "mermaid",
@@ -283,11 +275,19 @@
     },
     {
       "name": "ga",
-      "label": "跟踪 ID",
-      "group": "谷歌统计",
+      "label": "Google Analytics ID",
+      "group": "杂项",
       "value": "",
       "type": "input",
       "note": "UA-xxxxxxxxx-x"
+    },
+    {
+      "name": "customCss",
+      "label": "自定义 CSS",
+      "group": "杂项",
+      "value": "",
+      "type": "textarea",
+      "note": ""
     },
     {
       "name": "friends",
