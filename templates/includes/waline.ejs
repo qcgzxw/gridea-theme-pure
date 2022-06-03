@@ -1,4 +1,5 @@
-<script src='https://fastly.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+<script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
 
 <style>
 	div#waline{
@@ -12,14 +13,12 @@
 	<div id="waline"></div>
 <% } %>
 <script>
-	new Waline({
+	Waline.init({
 		el: '#waline',
 		login: 'disable',
 		serverURL: '<%=site.customConfig['serverURL']%>',
-		avatar: '<%=site.customConfig['avatar']%>',
 		pageSize: <%=site.customConfig['pageSize']%>,
 		recordIp: <%=site.customConfig['recordIp']%>,
-		placeholder: '<%=site.customConfig['placeholder']%>',
 		visitor: <%=site.customConfig['visitor']%>,
 	});
 </script>
